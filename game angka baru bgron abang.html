@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permainan Tebak Angka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Permainan Tebak Angka</h1>
+    <p>Masukkan angka antara 1 dan 100:</p>
+    <input type="number" id="guessField">
+    <button onclick="checkGuess()">Tebak</button>
+    <button onclick="resetGame()">Mulai Ulang</button>
+    <p id="message"></p>
+    <p id="attempts"></p>
+    <audio id="correctSound" src="correct.mp3"></audio>
+    <audio id="wrongSound" src="wrong.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
